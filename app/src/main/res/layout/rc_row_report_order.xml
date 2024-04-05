@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tv_report_order_id_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/txt_report_order_order_id_title"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_report_customer_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/txt_report_order_customer_title"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_report_order_id_title" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_report_store_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/txt_report_order_store_title"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_report_customer_title" />
+
+        <TextView
+            android:id="@+id/tv_report_products_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/txt_report_order_products_title"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_report_store_title" />
+
+        <TextView
+            android:id="@+id/tv_report_type_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/txt_report_order_type"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_report_products_title" />
+
+        <TextView
+            android:id="@+id/tv_report_payment_type_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/txt_report_order_payment_type_title"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_report_type_title" />
+
+        <TextView
+            android:id="@+id/tv_report_total_order_amount_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/txt_report_order_total_order_amount_title"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_report_payment_type_title" />
+
+        <TextView
+            android:id="@+id/tv_report_total_order_date_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/delivery_date_time"
+            android:textSize="@dimen/sub_heading"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_report_total_order_amount_title" />
+
+        <TextView
+            android:id="@+id/tv_report_order_id_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_report_order_id_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6"
+            app:layout_constraintTop_toTopOf="@+id/tv_report_order_id_title" />
+
+        <TextView
+            android:id="@+id/tv_report_customer_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_report_customer_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6"
+            app:layout_constraintTop_toTopOf="@+id/tv_report_customer_title" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_report_store_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_report_store_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6"
+            app:layout_constraintTop_toTopOf="@+id/tv_report_store_title" />
+
+        <TextView
+            android:id="@+id/tv_report_products_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_report_products_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6"
+            app:layout_constraintTop_toTopOf="@+id/tv_report_products_title" />
+
+        <TextView
+            android:id="@+id/tv_report_type_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_report_type_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6"
+            app:layout_constraintTop_toTopOf="@+id/tv_report_type_title" />
+
+        <TextView
+            android:id="@+id/tv_report_payment_type_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_report_payment_type_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6"
+            app:layout_constraintTop_toTopOf="@+id/tv_report_payment_type_title" />
+
+        <TextView
+            android:id="@+id/tv_report_total_order_amount_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_report_total_order_amount_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6" />
+
+        <TextView
+            android:id="@+id/tv_report_total_order_date_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/sub_heading"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline6" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.35" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

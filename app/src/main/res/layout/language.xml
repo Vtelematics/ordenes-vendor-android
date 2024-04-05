@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_restaurant_language"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <!-- android:layout_height="@dimen/_210sdp"-->
+
+    <LinearLayout
+        android:id="@+id/layout_restaurant_language_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_restaurant_language_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="start|center"
+            android:padding="@dimen/_6sdp"
+            android:text="@string/choose_language"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+
+        <LinearLayout
+            android:id="@+id/layout_restaurant_language_close"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/tv_restaurant_language_close"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:src="@drawable/ic_close_white_24dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layout_restaurant_language_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_56sdp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp">
+        <!-- android:layout_height="@dimen/_210sdp"-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/layout_restaurant_language_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"/>
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/language_group"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <!-- <RadioButton
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:id="@+id/language_english"
+            android:layout_width="match_parent"
+            android:text="English"
+            android:layout_height="@dimen/_30sdp" />
+
+        <RadioButton
+            android:id="@+id/language_arabic"
+            android:layout_width="match_parent"
+            android:text="Arabic"
+            android:layout_height="@dimen/_30sdp" />-->
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_restaurant_language_change"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_32sdp"
+        android:layout_marginLeft="@dimen/_32sdp"
+        android:layout_marginRight="@dimen/_32sdp"
+        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/bg_language_change_btn"
+        android:gravity="center"
+        android:text="@string/language_change"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    app:cardElevation="@dimen/_3sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_3sdp">
+
+        <TextView
+            android:id="@+id/tv_option_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_action_grade_red_10dp"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableRight="@drawable/ic_action_grade_red_10dp"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/txt_filter_option_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/body" />
+
+        <EditText
+            android:id="@+id/et_option_name_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:background="@drawable/draw_spinner_bg"
+            android:inputType="text"
+            android:padding="@dimen/_3sdp" />
+        <TextView
+            android:id="@+id/tv_option_type_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/txt_option_type"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/body" />
+        <Spinner
+            android:id="@+id/sp_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/draw_spinner_bg">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/tv_sort_order_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/section_sort_order"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/body" />
+
+        <EditText
+            android:id="@+id/et_sort_order_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:background="@drawable/draw_spinner_bg"
+            android:inputType="number"
+            android:padding="@dimen/_3sdp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

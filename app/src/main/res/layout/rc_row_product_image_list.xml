@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_product_image"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:background="@drawable/draw_spinner_bg"
+                android:scaleType="fitXY"
+                android:src="@drawable/no_image"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/ib_product_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/grey_500"
+                android:src="@drawable/ic_add_circle_outline_white_36dp"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/reg_image_title"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_12sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remove"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_delete_grey_500_24dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

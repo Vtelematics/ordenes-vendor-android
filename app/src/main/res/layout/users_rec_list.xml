@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/user_linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:background="@color/grey_200"
+        android:src="@drawable/baseline_person_24dp"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:text="Restaurant"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/grey_500"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_count"
+        android:textColor="@color/white"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/bg_chat_primary_color"
+        android:text="10"
+        android:gravity="center"
+        android:layout_width="@dimen/_27sdp"
+        android:layout_height="@dimen/_27sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_gravity="end|center"/>
+
+</FrameLayout>
