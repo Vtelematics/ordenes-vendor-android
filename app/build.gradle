@@ -19,7 +19,17 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         multiDexEnabled true
-//        vectorDrawables.useSupportLibrary = true
+//        vectorDrawables.useSupportLibrary = true'
+
+//        signingConfigs {
+//            release {
+//                storeFile file("C:/AndroidOfficeWork/pranesh jks/OrdeneseCustomer.jks")
+//                storePassword 'OrDeneSeVendor@987'
+//                keyAlias 'OrdenEseVendorAlias123'
+//                keyPassword 'OrDeneSeVendor@987'
+//            }
+//        }
+
     }
 
     buildTypes {
