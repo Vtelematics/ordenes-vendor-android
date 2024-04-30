@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ba0100</color>
+    <color name="colorPrimaryDark">#A30403</color>
+    <color name="colorAccent">#ba0100</color>
+    <color name="colorAccent_orange">#FF5A01</color>
+    <color name="red_light_bg">#ECC6C4</color>
+
+    <color name="color_home_un_select_title">#757575</color>
+    <color name="color_border">#F66767</color>
+
+    <color name="network_error_bg">#3B3B3C</color>
+    <color name="grey_header">@color/grey_200</color>
+    <color name="order_cancel">@color/colorAccent</color>
+
+    <color name="dashboard_1">#F45456</color>
+    <color name="dashboard_2">#26A59A</color>
+    <color name="dashboard_3">#F46523</color>
+    <color name="dashboard_4">#F8D225</color>
+
+    <color name="order_report_1">#FF0400</color>
+    <color name="order_report_2">#009193</color>
+    <color name="order_report_3">#941751</color>
+    <color name="transparent_70">#08c00000</color>
+    <color name="transparent_85">#1a000000</color>
+    <color name="text_color">#424242</color>
+    <color name="text_color_secondary">#9E9E9E</color>
+    <color name="disable">#D3ED5351</color>
+
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_600">@color/material_grey_600</color>
+    <color name="grey_800">@color/material_grey_800</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red_light">#D34A41</color>
+
+    <color name="ar_cuisines_search_text_color">#838383</color>
+    <color name="app_login_back_btn_color">#262626</color>
+    <color name="ar_filter_horizontal_line_color">#e5e5e5</color>
+    <color name="gc_mp_product_image_bg_color">#f7f7f7</color>
+    <color name="black_transparent_0">#00000000</color>
+    <color name="home_session_prefix_color">#444444</color>
+    <color name="co_contact_less_delivery_bg_color">#F7E1E1</color>
+    <color name="busy_status">#33C357</color>
+
+
+</resources>

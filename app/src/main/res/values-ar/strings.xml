@@ -1,0 +1,444 @@
+<resources>
+    <string name="app_name">Ordenes Partner</string>
+    <string name="app_name_in_print_receipt">Ordenes Partner</string>
+    <string name="txt_completed"> مكتمل</string>
+    <string name="txt_ready_to_pick_up">جاهز للاستلام</string>
+    <string name="txt_picked">منتقى</string>
+
+    <!--Login-->
+    <string name="txt_email">البريد الإلكتروني</string>
+    <string name="txt_password">كلمة المرور</string>
+    <string name="txt_change_password">غير كلمة السر</string>
+    <string name="txt_forgotten_password">كلمة سر منسية?</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="con_txt_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="txt_remember">عرض كلمة المرور</string>
+    <string name="txt_language">تغيير اللغة</string>
+    <string name="txt_dont_have_account">ليس لديك حساب</string>
+    <string name="txt_sign_up">أفتح حساب الأن?</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="btn_save">يحفظ</string>
+    <string name="btn_cancel">يلغي</string>
+    <string name="btn_ok">موافق</string>
+
+    <string name="language">لغة</string>
+    <string name="choose_language">اختر اللغة</string>
+    <string name="language_change">يتغيرون</string>
+    <string name="process_failed_please_try_again">فشلت العملية ، يرجى المحاولة مرة أخرى!</string>
+    <!--Network Error-->
+    <string name="_retry">أعد المحاولة</string>
+    <string name="_retry_description">لا يوجد اتصال بالإنترنت.</string>
+
+    <!-- Error Message-->
+    <string name="error_email">البريد الالكتروني مطلوب!</string>
+    <string name="error_invalid_email">بريد إلكتروني خاطئ</string>
+    <string name="error_password">يجب أن تكون كلمة المرور بين 4 و 20 حرفًا</string>
+    <string name="error_confirm">تأكيد كلمة المرور لا يتطابق مع كلمة المرور!</string>
+    <string name="error_confirm_password">الرجاء إدخال تأكيد كلمة المرور الخاصة بك!</string>
+    <string name="error_name">مطلوب اسم!</string>
+    <string name="error">هناك خطأ ما!</string>
+
+
+    <!--Register-->
+    <string name="reg_personal_title">معلومات شخصية</string>
+    <string name="reg_store_title">معلومات المطعم</string>
+    <string name="reg_first_name_title">الاسم الاول</string>
+    <string name="reg_last_name_title">الكنية</string>
+    <string name="reg_email_title">البريد الإلكتروني</string>
+    <string name="reg_mobile_no_title">رقم الهاتف المحمول</string>
+    <string name="reg_password_title">كلمة المرور</string>
+    <string name="reg_conform_pwd_title">تأكيد كلمة المرور </string>
+    <string name="reg_status">حالة</string>
+    <string name="reg_submit">يُقدِّم</string>
+    <string name="register">سجل الان </string>
+    <string name="update">تحديث</string>
+    <string name="reg_address">تبوك</string>
+    <string name="please_allow_the_device_location_access">يرجى السماح بالوصول إلى موقع الجهاز للمضي قدمًا.</string>
+    <!-- <string name="reg_english_name_title">اسم المطعم (انجليزي)</string>-->
+    <string name="reg_english_name_title">اسم المطعم</string>
+    <string name="reg_arabic_name_title">اسم المطعم (عربي)</string>
+    <string name="reg_owner_title">صاحب</string>
+    <string name="reg_data_title">معلومات البيانات</string>
+    <string name="reg_preparing_title">وقت التحضير للاستلام (بالدقائق)</string>
+    <string name="reg_Cuisine_title">أطباق</string>
+    <string name="reg_non_available_title">اختر التواريخ غير المتاحة</string>
+    <string name="reg_payment_title">طريقة الدفع او السداد</string>
+    <string name="reg_pickup">يلتقط</string>
+    <string name="reg_delivery">توصيل</string>
+    <string name="reg_photo_title">الصور</string>
+    <string name="reg_logo">شعار</string>
+    <string name="reg_image_title">صورة</string>
+    <string name="reg_image_info_title">معلومات الصور</string>
+    <string name="reg_working_hours_title">معلومات ساعات العمل</string>
+    <string name="reg_days">أيام</string>
+    <string name="reg_working">عمل</string>
+    <string name="reg_from">من</string>
+    <string name="reg_to">إلى</string>
+    <string name="reg_sunday">الأحد</string>
+    <string name="reg_monday">الاثنين</string>
+    <string name="reg_tuesday">يوم الثلاثاء</string>
+    <string name="reg_wednesday">الأربعاء</string>
+    <string name="reg_thursday">يوم الخميس</string>
+    <string name="reg_friday">جمعة</string>
+    <string name="reg_saturday">السبت</string>
+    <string name="reg_time">زمن</string>
+    <string name="reg_hint_restaurant_name">مثال: مطعم Abc</string>
+    <string name="reg_hint_owner_name">مثال: يوحنا</string>
+    <string name="reg_hint_email">مثال: John@gmail.com</string>
+    <string name="reg_hint_mobile_number">Ex: +9719876543210</string>
+    <string name="reg_hint_password">Ex: test@123</string>
+    <string name="reg_hint_preparing_time">Ex: 30 Min</string>
+
+    <!--Reg. Error-->
+    <string name="reg_first_name_error">يجب ألا يكون الاسم الأول فارغًا!</string>
+    <string name="reg_last_name_error">يجب ألا يكون الاسم الأخير فارغًا!</string>
+    <string name="reg_email_error">يبدو أن عنوان البريد الإلكتروني غير صالح!</string>
+    <string name="reg_english_name_error">يجب أن يكون الاسم بين 3 و 32 حرفًا!</string>
+    <string name="reg_arabic_name_error">يجب أن يكون الاسم بين 3 و 32 حرفًا!</string>
+    <string name="reg_owner_error">يجب أن يتراوح اسم المالك بين 3 و 64 حرفًا!</string>
+    <string name="reg_mobile_no_error">يجب أن يكون رقم الهاتف المحمول صالحًا!</string>
+    <string name="reg_pwd_error">يجب أن تكون كلمة المرور بين 4 و 20 حرفًا!</string>
+    <string name="reg_confirm_pwd_error">كلمة المرور وتأكيد كلمة المرور غير متطابقين!</string>
+    <string name="reg_address_error">يرجى تقديم عنوان جغرافي!</string>
+
+    <!--Coupon-->
+    <string name="coupon_name">اسم القسيمة</string>
+    <string name="coupon_code">شفرة</string>
+    <string name="coupon_type">يكتب</string>
+    <string name="coupon_discount">تخفيض</string>
+    <string name="coupon_total_amount">المبلغ الإجمالي</string>
+    <string name="coupon_products">منتجات</string>
+    <string name="coupon_category">فئة</string>
+    <string name="coupon_date_start">تاريخ البدء</string>
+    <string name="coupon_date_end">تاريخ الانتهاء</string>
+    <string name="coupon_use_per_coupon">يستخدم لكل قسيمة</string>
+    <string name="coupon_use_per_customer">الاستخدامات لكل عميل </string>
+    <string name="coupon_status">حالة</string>
+    <string name="btn_add">اضف جديد</string>
+    <string name="txt_add_coupon">أضف عرض</string>
+    <string name="txt_edit_coupon"> تحرير القسيمة </string>
+    <string name="text_select">الرجاء التحديد</string>
+
+    <!--Coupon Error-->
+    <string name="coupon_name_error">يجب أن يتراوح اسم الكوبون بين 3 و 128 حرفًا!</string>
+    <string name="coupon_code_error">يجب أن يتراوح عدد أحرف الكوبون بين 3 و 128 حرفًا!</string>
+
+    <!--Home Page-->
+    <string name="text_setting">ضبط</string>
+    <string name="text_dashboard">لوحة القيادة</string>
+    <string name="text_logout">تسجيل خروج</string>
+    <string name="text_coupons">كوبونات</string>
+    <string name="text_section">الجزء</string>
+    <string name="text_order">الطلب #٪ s</string>
+    <string name="text_product">منتج</string>
+    <string name="txt_product_title">منتجات</string>
+    <string name="txt_account_title">الحساب</string>
+    <string name="text_home">مسكن</string>
+    <string name="new_orders">طلبات جديدة</string>
+    <string name="text_forget">نسيت كلمة المرور</string>
+    <string name="text_category">الفئة </string>
+
+    <!--dashboard-->
+    <string name="txt_sales">مبيعات</string>
+    <string name="txt_balance"> التوازن </string>
+    <string name="txt_total_orders">إجمالي الطلبات</string>
+    <string name="txt_total_sales">إجمالي المبيعات</string>
+    <string name="txt_total_completed_sales">إجمالي المبيعات الكاملة</string>
+    <string name="txt_total_products">إجمالي المنتجات</string>
+    <string name="logout_message">تم تسجيل الخروج بنجاح.</string>
+    <string name="title_activity_maps">خريطة</string>
+    <!--Drawer-->
+    <string name="openDrawer">درج مفتوح</string>
+    <string name="closeDrawer">إغلاق الدرج</string>
+
+
+    <!--Order Info-->
+    <string name="previous_order">الامر السابق</string>
+    <string name="customer_details">تفاصيل العميل</string>
+    <string name="store_details">تفاصيل المتجر</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="order_history">تفاصيل محفوظات الطلب</string>
+    <string name="order_product">طلب تفاصيل المنتج</string>
+    <string name="order_total">المجموع</string>
+    <string name="order_price">سعر</string>
+    <string name="order_name">اسم</string>
+    <string name="order_phone">هاتف</string>
+    <string name="order_date">تاريخ الطلب</string>
+    <string name="order_time">زمن</string>
+    <string name="order_type">نوع التسليم </string>
+    <string name="order_cmt">تعليق</string>
+    <string name="order_payment_type">نوع الدفع</string>
+    <string name="order_address">تبوك</string>
+    <string name="order_email">البريد الإلكتروني</string>
+    <string name="order_payment">نوع الدفع</string>
+    <string name="order_status">حالة</string>
+    <string name="order_Status">حالة الطلب</string>
+    <string name="order_order_type">نوع الطلب</string>
+    <string name="order_non_veg_diner">عشاء غير نباتي</string>
+    <string name="order_veg_price">سعر الخضار </string>
+    <string name="order_non_veg_price">سعر غير نباتي </string>
+    <string name="order_total_price">السعر الكلي </string>
+    <string name="order_date_added">تم إضافة التاريخ</string>
+    <string name="order_comment">تعليق </string>
+    <string name="order_add_history">أضف التاريخ</string>
+    <string name="order_manage_status">إدارة الحالة </string>
+    <string name="order_notify">بإخطار العملاء</string>
+    <string name="order_add_status">إضافة حالة الطلب </string>
+    <string name="or_empty">لا يوجد طلب حتى الآن استمر في التسوق.</string>
+    <string name="txt_bill_details">تفاصيل الفاتورة</string>
+    <string name="txt_quantity">كمية</string>
+    <string name="txt_total">المجموع</string>
+    <string name="sorry">آسف !</string>
+    <string name="empty">قائمة الطلبات فارغة</string>
+    <string name="no_new_order">لا يوجد نظام جديد.</string>
+    <string name="empty_user">قائمة المستخدمين فارغة</string>
+
+    <!--Reports Order Info-->
+    <string name="report_order_id">رقم التعريف الخاص بالطلب</string>
+    <string name="report_customer">الزبون </string>
+    <string name="report_phone">رقم الهاتف</string>
+    <string name="report_status">حالة</string>
+    <string name="report_cuisine">أطباق</string>
+    <string name="report_total_diners">مجموع داينرز</string>
+    <string name="report_order_date">تاريخ الطلب</string>
+    <string name="report_order_booking_date">تاريخ الحجز</string>
+    <string name="report_order_amount">كمية الطلب</string>
+    <string name="txt_today_total_title">اليوم</string>
+    <string name="txt_week_total_title">هذا الأسبوع </string>
+    <string name="txt_month_total_title">هذا الشهر</string>
+    <string name="txt_total_title">المجموع</string>
+    <string name="txt_total_order_title">عدد الطلبات</string>
+    <string name="txt_total_cost_title">كلفة</string>
+
+
+    <!--Toolbar Title-->
+    <string name="text_signup">اشتراك</string>
+    <string name="text_order_list">لائحة الطلبات</string>
+    <string name="text_order_info">معلومات الطلب</string>
+    <string name="text_edit_store">تحرير المتجر</string>
+
+    <!--empty list-->
+    <string name="coupon_empty">لا توجد قائمة قسيمة.</string>
+    <string name="section_empty">لا توجد قائمة قسم.</string>
+    <string name="option_empty">لا توجد قائمة خيارات.</string>
+
+    <!--Section Info-->
+    <string name="section_name">اسم التصنيف</string>
+    <string name="Section_Name">اسم الفئة <font color = 'red'>*</font></string>
+   <!-- <string name="Section_Name">Category Name<font color='red'>*</font></string>-->
+    <string name="section_status">حالة</string>
+    <string name="section_sort_order">امر ترتيب</string>
+    <string name="txt_add_section">إضافة فئة </string>
+    <string name="txt_edit_section">تحرير الفئة</string>
+    <string name="txt_option_title">خيارات</string>
+
+    <!--dialog message-->
+    <string name="delete_confirmation_title">هل أنت واثق?</string>
+    <string name="delete_message">هل أنت متأكد أنك تريد حذف هذا الإدخال?</string>
+
+    <!--Product-->
+    <string name="product_name">اسم المنتج <font color='red'>*</font></string>
+    <string name="product_description">وصف</string>
+    <string name="product_delivery_note">مذكرة تسليم</string>
+    <string name="product_item_note">ملاحظة البند </string>
+    <string name="product_price_selection">السعر حسب الاختيار</string>
+    <string name="product_discount">تخفيض </string>
+    <string name="product_price">سعر </string>
+    <string name="product_quantity">كمية </string>
+    <string name="product_status">حالة </string>
+    <string name="product_sort_order">امر ترتيب</string>
+    <string name="product_preparing_time">وقت التحضير</string>
+    <string name="product_image">صورة </string>
+    <string name="product_additional_image">صور إضافية </string>
+    <string name="product_add_option">إضافة خيار</string>
+    <string name="product_add_section">إضافة فئة</string>
+    <string name="product_date_start">	تاريخ البدء </string>
+    <string name="product_date_end">تاريخ الانتهاء </string>
+    <string name="earning_history">تاريخ الكسب</string>
+    <string name="assign_order">طلب تعيين</string>
+    <string name="txt_report_product_title">الأكثر شراء</string>
+    <string name="error_product_name">يجب أن يكون اسم المنتج أكبر من 3 وأقل من 255 حرفًا!</string>
+    <string name="error_price">سعر غير صالح</string>
+
+    <!--Reports-->
+    <string name="txt_report_title">التقارير </string>
+    <string name="txt_report_shipping">شحن</string>
+    <string name="txt_report_commission">عمولة</string>
+    <string name="txt_report_product">منتجات</string>
+    <string name="txt_report_most_purchased">الأكثر شراء</string>
+
+    <!--Reports - Shipping-->
+    <string name="txt_report_shipping_title">عنوان الشحن</string>
+    <string name="txt_report_no_orders">رقم الطلبات</string>
+    <string name="txt_report_shipping_empty">الشحن فارغ.</string>
+
+    <!--Reports - Order list-->
+    <string name="txt_report_empty_order">لا يوجد طلب متاح.</string>
+    <string name="txt_report_total_orders_title">إجمالي الطلبات</string>
+    <string name="txt_report_total_products_title">إجمالي منتجات الطلب</string>
+    <string name="txt_report_total_amount_title">إجمالي مبلغ الطلب</string>
+    <string name="txt_report_order_order_id_title">رقم الطلب</string>
+    <string name="txt_report_order_customer_title">عميل</string>
+    <string name="txt_report_order_store_title">متجر</string>
+    <string name="txt_report_order_products_title">منتجات</string>
+    <string name="txt_report_order_type">يكتب</string>
+    <string name="txt_report_order_payment_type_title">نوع الدفع</string>
+    <string name="txt_report_order_total_order_amount_title">كمية الطلب</string>
+
+    <!--Reports - Commission list-->
+    <string name="txt_report_commission_empty">العمولة فارغة.</string>
+    <string name="txt_report_commission_total">إجمالي العمولة</string>
+
+
+    <!--Reports - Products list-->
+    <string name="txt_report_products_empty">قائمة المنتجات فارغة.</string>
+    <string name="txt_report_product_name">اسم المنتج</string>
+    <string name="text_filter_product">مرشح المنتج</string>
+
+    <!--Reports - Coupon List-->
+    <string name="txt_report_coupon_empty">قائمة القسيمة فارغة.</string>
+    <string name="txt_report_action">عمل</string>
+    <string name="report_order_start_date">تاريخ البدء</string>
+    <string name="report_order_end_date">تاريخ الانتهاء</string>
+    <string name="text_filter_coupon">قسيمة التصفية</string>
+    <string name="text_filter">منقي</string>
+
+    <!--Report - Shipping List-->
+    <string name="text_filter_shipping">تصفية الشحن</string>
+    <string name="text_group_by">مجموعة من</string>
+
+    <!--Product List-->
+    <string name="txt_product_name">اسم المنتج</string>
+    <string name="txt_product_price">سعر</string>
+    <string name="txt_product_quantity">كمية </string>
+    <string name="txt_product_status">حالة </string>
+    <string name="txt_add_product">أضف منتج</string>
+    <string name="txt_edit_product">تحرير المنتج</string>
+
+    <!--Order List Filter -->
+    <string name="txt_Customer">عميل</string>
+    <string name="txt_Customer_name">اسم الزبون</string>
+
+    <string name="filter_title">مرشح المنتج</string>
+    <string name="filter_start_date">تاريخ البدء</string>
+    <string name="filter_end_date">تاريخ الانتهاء</string>
+    <string name="apply">يتقدم</string>
+    <string name="filter_delivery_date">تاريخ التسليم او الوصول</string>
+
+    <!--Sorting-->
+    <string name="sorting_title">فرز</string>
+    <string name="sorting_name_asc">الاسم (A-Z)</string>
+    <string name="sorting_name_desc">الاسم (Z-A)</string>
+    <string name="sorting_sort_order_asc">ترتيب الفرز (منخفض - مرتفع)</string>
+    <string name="sorting_sort_order_desc">ترتيب الفرز (مرتفع - منخفض)</string>
+
+    <!--Option-->
+    <string name="txt_filter_option_name">اسم الخيار</string>
+    <string name="txt_filter_option_value">قيمة الخيار</string>
+    <string name="txt_filter_option_name_asc">اسم الخيار (أ-ي)</string>
+    <string name="txt_filter_option_name_desc">اسم الخيار (Z-A)</string>
+    <string name="txt_filter_enter_value">الرجاء إدخال القيمة.</string>
+    <string name="txt_edit_option">تحرير الخيار</string>
+    <string name="txt_option_type">يكتب</string>
+    <string name="txt_add_more_option">يرجى إضافة قيمة خيار واحدة على الأقل.</string>
+
+    <string name="disabled">عاجز</string>
+    <string name="enabled">ممكن</string>
+    <string name="no">رقم</string>
+    <string name="yes">نعم</string>
+    <string name="loading">جار التحميل...</string>
+    <string name="no_section_list">لا يوجد قسم قائمة</string>
+    <string name="take_photo">التقاط صورة </string>
+    <string name="choose_from_gallery">اختر من المعرض</string>
+    <string name="cancel">يلغي</string>
+    <string name="select_option">حدد خيار</string>
+    <string name="camera_permission_error">خطأ في إذن الكاميرا</string>
+    <string name="alert">انذار</string>
+    <string name="app_needs_to_access_the_Camera">يحتاج التطبيق للوصول إلى الكاميرا.</string>
+    <string name="deny">ينكر</string>
+    <string name="allow">السماح</string>
+    <string name="year"> عام </string>
+    <string name="settings">إعدادات</string>
+    <string name="gps_access_permission">تحتاج إلى تنشيط خدمة الموقع لاستخدام هذه الميزة. يرجى تشغيل وضع الشبكة أو GPS في إعدادات الموقع </string>
+    <string name="select_picture">حدد صورة</string>
+    <string name="day">يوم</string>
+    <string name="week"> أسبوع </string>
+    <string name="month">شهر</string>
+    <string name="please_select_checkbox">الرجاء تحديد خانة الاختيار</string>
+    <string name="percentage">النسبة المئوية</string>
+    <string name="fixed_amount">مبلغ ثابت</string>
+    <string name="please_fill_all_required">يرجى ملء كل ما هو مطلوب </string>
+    <string name="single_selection">اختيار واحد</string>
+    <string name="multiple_selection">اختيار متعددة</string>
+
+
+    <!--Bank Details-->
+    <string name="bank_details">التفاصيل المصرفية</string>
+    <string name="pan_card_title">بطاقة الطعام</string>
+    <string name="acc_no_title">رقم حساب</string>
+    <string name="ifsc_code">كود IFSC</string>
+
+    <string name="required_fields_missing">الحقول المطلوبة مفقودة!</string>
+    <string name="add_new_category">إضافة فئة جديدة</string>
+
+    <!--Store Type-->
+    <string name="store_type">نوع المتجر</string>
+    <string name="veg_">نباتي</string>
+    <string name="non_veg">غير نباتي</string>
+    <string name="both">كلاهما </string>
+    <string name="product_type_veg">نباتي</string>
+    <string name="product_type_non_veg">غير نباتي</string>
+    <string name="product_type">نوع المنتج</string>
+
+    <string name="cancellation_reason">الرجاء تحديد السبب.</string>
+    <string name="delay_min">الرجاء تحديد الدقائق.</string>
+
+    <string name="preparing">خطة</string>
+    <string name="ready_for_pickup">جاهز للاستلام</string>
+    <string name="cancelled">يلغي</string>
+    <string name="delay">تأخير </string>
+
+    <string name="title_1">وقت التأخير</string>
+    <string name="title_2">إلغاء السبب</string>
+    <string name="success_msg">تم التحديث بنجاح.</string>
+    <string name="mins">الدقائق</string>
+
+    <!--New-->
+    <string name="name">اسم</string>
+    <string name="driver_assigned">سائق معين</string>
+    <string name="flat_on">منزل / شقة لا</string>
+    <string name="delivery_date_time"> تاريخ التسليم &amp; أمبير </string>
+
+    <!--In-App update-->
+    <string name="an_update_dowmloaded">تم تحميل التحديث للتو.</string>
+    <string name="restart">إعادة بدء</string>
+    <string name="status">مكتمل</string>
+
+    <string name="busy_status">حالة الانشغال:</string>
+    <string name="busy">مشغول</string>
+    <string name="open">فتح</string>
+    <string name="add_product_image">أضف صورة المنتج</string>
+    <string name="remove">إزالة</string>
+    <string name="add">يضيف</string>
+    <string name="take_a_photo">التقاط صورة</string>
+    <string name="photo_library">مكتبة الصور</string>
+    <string name="text_msg">رسالة</string>
+    <string name="support">الدعم</string>
+    <string name="price">سعر</string>
+    <string name="gc_mp_categories">فئات</string>
+    <string name="no_results">لم يتم العثور على النتائج.</string>
+    <string name="empty_products_list">المنتج غير متوفر في هذه الفئة.</string>
+    <string name="search">يبحث</string>
+    <string name="cost">كلفة</string>
+    <string name="no_of_orders">عدد الطلبات</string>
+    <string name="txt_report_order">تقارير الطلب</string>
+    <string name="printer_text_thank_you">اشكرك</string>
+    <string name="text_product_qty">كمية</string>
+    <string name="now">حاليا</string>
+    <string name="accept">قبول</string>
+    <string name="product_details">تفاصيل المنتج</string>
+    <string name="schedule">جدول</string>
+    <string name="  view_details">عرض التفاصيل</string>
+
+
+</resources>

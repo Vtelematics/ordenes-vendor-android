@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/lay_restaurant_list_row"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_restaurant_language_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:gravity="start|center"
+        android:padding="@dimen/_4sdp"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_15sdp" />
+
+</LinearLayout>
