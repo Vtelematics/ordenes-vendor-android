@@ -1235,7 +1235,7 @@ public class Fragment_order_info extends Fragment {
         //Bill Details Content
         for (int i = 0; i <= order_info.getDelivery_product_details().size() - 1; i++) {
             data_List.add(getPackData("  " + getBilldetailwithAlign(order_info.getDelivery_product_details().get(i).getName(), order_info.getDelivery_product_details().get(i).getQuantity(), order_info.getDelivery_product_details().get(i).getTotal()) + "", fontSizeContent, true, false, fontName));
-//            data_List.add(getPackData("  " + getBilldetailwithAlign("Toppings", "", order_info.getDelivery_product_details().get(i).getOptionValueModels().get(i).getValue()) + "", fontSizeContent, true, false, fontName));
+            data_List.add(getPackData("  " + getBilldetailwithAlign("Toppings", "", order_info.getDelivery_product_details().get(i).getOptionValueModels().get(i).getValue()) + "", fontSizeContent, true, false, fontName));
         }
         for (int j =0; j< order_info.getDelivery_product_details().size();j++){
             for(int k =0; k<order_info.getDelivery_product_details().get(j).getOptionValueModels().size(); k++){
